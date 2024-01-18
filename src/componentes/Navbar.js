@@ -58,7 +58,7 @@ export const Navbar = () => {
                 <div className='bg-white'>
                     <div className="barra ">
                         <div id="logo">
-                            <NavLink to="/inicio"><img src="IMG/logo.png" alt="Logo"/></NavLink>
+                            <NavLink to={"/"}><img src="IMG/logo.png" alt="Logo"/></NavLink>
                         </div>
                         <div id="barra-busqueda">
                             <form action="#">

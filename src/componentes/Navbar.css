@@ -13,6 +13,7 @@
     /* margin-top: 3.8em;  */ 
     background-color: #fff;
     border-bottom: 2px solid black;
+   /*  border: 2px solid black; */
 }
 
 .iconos-nav{
@@ -60,10 +61,13 @@
 
 #carrito{
     display: flex;
+    
+    padding: 1em;
 }
 
 .carrito{
     position: relative;
+    align-items: center;
 }
 
 .cantidad-carrito{
@@ -79,13 +83,17 @@
     left:4.2em;
     top:1em;
     color: antiquewhite;
-
 }
 
 
 
 
 @media screen and (max-width: 380px){ 
+    .barra{
+        height: 3em;
+        padding: 0;
+    }
+   
     .barra #logo img{
         width: 5em;
     }
@@ -97,10 +105,35 @@
     .iconos-nav{
         font-size: 0.8em;
         padding: 0.4em; 
+        
+    }
+    #carrito{
+        height: 1em;
+        padding: 0;
+    }
+    .cantidad-carrito{
+       
+        width:1.5em;
+        height:1.5em;
+        font-size: 0.4em;
+        left:2em;
+        top:0em;
     }
   
 }
 @media screen and (min-width:380px) and (max-width: 512px) {
+    #carrito{
+        height: 1em;
+        padding: 0;
+    }
+    .cantidad-carrito{
+       
+        width:1.5em;
+        height:1.5em;
+        font-size: 0.4em;
+        left:2em;
+        top:0em;
+    }
     .barra #logo img{
         width: 6em;
     }
@@ -110,18 +143,34 @@
     }
     .iconos-nav{
         font-size: 1em;
-        padding: 0.5em; 
+        padding: 0.3em; 
     }
 
 }
 @media screen and (min-width:512px) and (max-width: 768px) {
+    
+    #carrito{
+        height: 1em;
+        padding: 0;
+    }
+    .cantidad-carrito{
+       
+        width:1.5em;
+        height:1.5em;
+        font-size: 0.4em;
+        left:2em;
+        top:0em;
+    }
+    
+    
     .barra{
         align-items: center;
         justify-content: space-between; 
         
     }
     #barra-busqueda{
-        padding: 0.8em; 
+        padding: 0em; 
+        margin: 0;
     }
     .iconos-nav{
         font-size: 0.8em;

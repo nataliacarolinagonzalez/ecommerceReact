@@ -45,8 +45,8 @@ export const Tabla = props => {
                 </Modal.Footer>
             </Modal>
                             
-            <div className=" TablaCarrito table-responsive">
-                <table className="table">
+            <div className=" TablaCarrito ">
+                <table className=" table table-responsive">
                    
                    {/*  <thead>
                         <tr>
@@ -79,10 +79,10 @@ export const Tabla = props => {
                                     <td>{producto.detalles}</td>
                                     {/* <td>{producto.marca}</td> */}
                                     <td>${producto.precio}</td>
-                                    <td>
+                                    <td className='btn-cantidades'>
                                         {producto.cantidad}
-                                        <button className='btn-dec ml-4' onClick={() => decrementarCantID(producto.id)}>-</button>
-                                        <button className='btn-inc ml-2' onClick={() => incrementarCantID(producto.id)}>+</button>
+                                        <button className='btn-dec' onClick={() => decrementarCantID(producto.id)}>-</button>
+                                        <button className='btn-inc' onClick={() => incrementarCantID(producto.id)}>+</button>
                                     </td>
                                     <td>${subtotal__carrito(producto.cantidad, producto.precio)}</td>
 

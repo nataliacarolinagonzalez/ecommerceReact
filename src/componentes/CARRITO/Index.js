@@ -207,7 +207,7 @@ export function Index(props) {
                                 
                             />
                             <div id="wallet_container">
-                                <Wallet 
+                                <Wallet className='btn-MP' 
                                     customization={customization}
                                     onReady={onReady}
                                     onError={onError}
