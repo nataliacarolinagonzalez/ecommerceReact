@@ -1,0 +1,120 @@
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@300&display=swap');
+
+.App{
+    font-family: 'Noto Sans HK', sans-serif;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 15em;
+    position: relative;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+
+
+/* Media Queries */
+@media screen and (max-width: 380px){
+    
+    .barra #logo img{
+                     width: 40px;
+    }
+    header nav{
+        font-size: 0.5em;
+        letter-spacing: 0;
+        height: 35px;
+        padding: 0.2em;  
+    }
+    .barra #carrito i {
+        margin: 0.1em;
+    }
+    header nav ul li a{
+        font-size: 1.1em;
+    }
+    #barra-busqueda form input {
+        padding: 1em;
+        height: 1.5em;
+        font-size: 0.5em;
+        width: 35vw;
+    }
+    .icon-search{
+       font-size: 0.4em; 
+    }
+    #barra-busqueda form button {
+        width: 1.5em;
+        height: 1.5em;
+    }
+    #videoTarjeta{
+        margin-bottom: 5em;
+    }
+    main #promos h5{
+        padding: 1em;
+        font-size: 0.8em;
+        margin: 0.5em;
+    }
+    
+    footer #info-gral-footer{
+        flex-direction: column;
+        font-size: 0.7em;
+    }
+    footer .copy{
+        font-size: 0.5em;
+    }
+}
+@media screen and (min-width:380px) and (max-width: 512px) {
+    .barra #logo img{
+        width: 70px;
+    }
+    .barra #carrito i {
+        font-size: 1em;
+        margin: 0.1em;
+    }
+    #barra-busqueda form input {
+        padding: 0.5em;
+        height: 1.8em;
+        font-size: 0.5em;
+    }
+    .icon-search{
+       font-size: 0.4em; 
+    }
+    #barra-busqueda form button {
+        width: 1.5em;
+        height: 1.5em;
+    }
+    main #promos h5{
+        padding: 1em;
+        margin: 0.5em;
+    }
+    header nav ul li a{
+        font-size: 0.7em;  
+    }
+    footer #info-gral-footer{ 
+        font-size: 0.7em;
+        flex-direction: column;
+    }
+    footer .copy{
+        font-size: 0.5em;
+    }
+    #videoTarjeta{
+        margin-bottom: 5em;
+
+    }
+}
+@media screen and (min-width:512px) and (max-width: 768px) {
+    .barra #logo img{
+        width: 90px;
+    }
+    header nav ul li a{
+        font-size: 1em;  
+    }
+    footer #info-gral-footer{ 
+        font-size: 0.7em;
+    }
+    footer .copy{
+        font-size: 0.5em;
+    }
+}

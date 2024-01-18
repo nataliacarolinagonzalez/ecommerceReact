@@ -1,0 +1,175 @@
+.Inicio {
+    height: 100%;
+    text-align: center;
+    padding: 0; 
+    margin: 0 auto; 
+    width: 90%;
+}
+
+.inicio .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.inicio section img {
+    width: 14em;
+    height: 14em;
+    
+}
+
+.iconos{
+    color:#EF233C;
+    font-size: 1em;
+    padding: 0.7em
+}
+
+.inicio section {
+    display: inline-block;
+    border: none;
+    padding: 0.5em;
+    color:#0B3954;
+    margin: 1em;
+    box-shadow: 0px 0px 6px 0.5px #525a5f;
+    border-radius: 0.5em;
+    overflow: hidden;
+    background-color: #fff;
+    width: 15em;
+    height: 25em;
+}
+
+.inicio .section-cards-header h1 {
+    color: #0B3954;
+    font-size: 2em;
+    margin: 1em auto;
+    text-shadow: 4px 4px 10px black;
+    letter-spacing: 0.3em;
+}
+
+.inicio .cards-container section p{
+    margin-bottom: 0.3em;
+    font-size: 0.7em;
+}
+
+.inicio .cards-container .nombre {
+    margin-bottom: 0.3em;
+    font-size: 1em;
+}
+.inicio .cards-container .precio {
+    font-size:1em; 
+    font-weight:bold; 
+    color:#ec5151; 
+    margin-top:0.3em  
+}
+
+.inicio .nombre {
+    font-variant:small-caps; 
+    font-size:1em; 
+    letter-spacing: 0.1em;
+}
+
+.inicio section #fav, .inicio section #cart{
+    outline: none;
+    border: none; 
+    background-color: transparent;
+    color: #EF233C;
+    padding-bottom: 1.2em;
+    padding-top: 0.5em;
+}
+
+
+.inicio section img:hover {
+    transform: scale(1.2);
+    overflow: hidden;
+    transition: 1.5s ease;
+    
+}
+
+.inicio section #fav p, .inicio section #cart p {
+    display: none;
+}
+   
+.inicio section #fav:hover, .inicio section #cart:hover {
+  transform: scale(1.3);
+  overflow: hidden;
+  transition: 1.5s ease;
+    
+}
+
+
+/* Media Queries */
+@media screen and (max-width: 380px){
+    .Inicio{
+        padding-bottom: 10em;
+    }
+    .inicio .section-cards-header h1 {
+        font-size: 0.8em;
+        margin: 0.5em auto;
+        letter-spacing: 0.1em;
+    }
+    .inicio .section-cards-header {
+        margin: 0.5em auto;
+    }
+    .inicio section img {
+        width: 10em;
+        height: 10em;
+        
+    }
+    
+    .inicio section {
+        padding: 0.3em;
+        margin: 0.5em;
+        width: 11em;
+        height: 18em;
+    }
+        
+    .inicio .cards-container section p{
+        margin-bottom: 0.2em;
+        font-size: 0.5em;
+    }
+    
+    .inicio .cards-container .nombre {
+        margin-bottom: 0.2em;
+        font-size: 0.7em;
+    }
+    .inicio .cards-container .precio {
+        font-size:0.7em; 
+        font-weight:bold; 
+        color:#ec5151; 
+        margin-top:0.2em  
+    }
+    
+    .inicio .nombre {
+        font-variant:small-caps; 
+        font-size:0.5em; 
+        letter-spacing: em;
+    }
+    
+    .inicio section #fav, .inicio section #cart{
+        outline: none;
+        border: none; 
+        background-color: transparent;
+        color: #EF233C;
+        padding-bottom: 1.2em;
+        padding-top: 0.5em;
+    }
+
+    .iconos{
+        color:#EF233C;
+        font-size: 0.7em;
+        padding: 0.5em
+    }
+
+
+}
+@media screen and (min-width:380px) and (max-width: 512px) {
+    .Inicio{
+        padding-bottom: 10em;
+    }
+    .inicio .section-cards-header h1 {
+        font-size: 1.2em;
+        margin: 0.7em auto;
+        letter-spacing: 0.2em;
+    }
+}

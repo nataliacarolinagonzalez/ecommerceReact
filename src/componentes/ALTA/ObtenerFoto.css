@@ -1,0 +1,72 @@
+.ObtenerFoto #drop {
+    border: 1px solid #0B3954;
+    border-radius: 0.3em;
+    background-color: whitesmoke;
+    width: 100%;
+    padding: 1em;
+    margin-bottom: 1.3em;
+    color: black;
+    text-align: center;
+    height: 200px;
+    user-select: none;  
+    
+    
+}
+
+.ObtenerFoto label {
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    text-transform: none;
+}
+
+.ObtenerFoto input {
+    display: none;
+}
+
+.ObtenerFoto img {
+    float: right;
+    height: 120px;
+} 
+
+.ObtenerFoto .spin {
+    color: #ec5151;
+}
+
+.ObtenerFoto .progress-bar{
+    margin:0 ;
+    border-radius: 0.3em;
+    border: none;
+    background-color: #ec5151;
+
+}
+
+.ObtenerFoto .progress{
+    margin:0;
+    border-radius: 0.3em;
+    border: none;
+    outline: #ec5151;
+    background-color: whitesmoke;
+
+}
+
+/* .progress{
+    -webkit-appearance: none;
+   appearance: none;
+   background-color: #0B3954
+}
+
+.progress::-webkit-progress-bar {
+    background-color: #eee;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+.progress::-webkit-progress-value {
+   background-color: #0B3954;
+  
+      border-radius: 2px; 
+  } */
+
+  
+/*  { porcentaje > 0 && <><div class="progress my-2" ><div class="progress-bar bg-dark" role="progressbar" style={{width: {porcentaje}}} aria-valuenow={porcentaje} aria-valuemin="0" aria-valuemax="100">{porcentaje}%</div></div></> } */

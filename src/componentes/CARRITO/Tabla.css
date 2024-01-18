@@ -1,0 +1,102 @@
+.TablaCarrito .table{
+    width: 85%;
+}
+
+.TablaCarrito table tr td {
+    border-top: 1px solid #0B3954;
+    padding: 1em;
+    font-weight: bold; 
+    font-size: 0.8em;
+    color: #0B3954; 
+    letter-spacing: 0.1em;
+
+}
+.TablaCarrito table .sin-borde{
+    border: none;
+}
+.TablaCarrito table .seguir-compra{
+    padding: 1em;
+    font-weight: bold; 
+    font-size: 0.9em;
+    color: #ec5151; 
+    letter-spacing: 0.1em;
+}
+
+
+.TablaCarrito table .total{
+    border-top: 4px solid #0B3954;
+    padding: 1em;
+    font-weight: bold; 
+    font-size: 0.9em;
+    color: #ec5151; 
+    letter-spacing: 0.1em;
+}
+ .TablaCarrito table tr td img{
+    width: 80px;
+
+}
+
+.TablaCarrito .btn-borrar, .TablaCarrito .btn-inc, .TablaCarrito .btn-dec{
+    color: #0B3954;
+   /*  padding: 1em; */
+    font-weight: bold; 
+    font-size: 1em;
+   /*  letter-spacing: 0.1em; */
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+.TablaCarrito .btn-inc, .TablaCarrito .btn-dec{
+    font-size: 1.2em;    
+}
+
+.TablaCarrito .btn-borrar:hover, .TablaCarrito .btn-inc:hover, .TablaCarrito .btn-dec:hover{
+    text-shadow: 3px 3px 4px #000;
+}
+
+
+/* Media Queries */
+@media screen and (max-width: 380px){
+   
+    .favoritos h1{
+        font-size: 1em;
+        margin-top: 6em;
+    }
+  
+    .TablaCarrito .table{
+        margin-bottom: 10em;
+        font-size: small;
+    } 
+    
+}
+@media screen and (min-width:380px) and (max-width: 512px) {
+    .Carrito{
+        width: 100%;  
+    }
+   
+    .favoritos h1{
+        font-size: 1.2em;
+        margin-top: 6em;
+    }
+    
+    table{
+        margin-bottom: 15em;
+        font-size: small;
+    }
+    
+}
+@media screen and (min-width:512px) and (max-width: 768px) {
+    .Favoritos{
+        width: 100%;    
+}
+    .favoritos h1{
+        font-size: 1.3em;
+        margin-top: 7em;
+    }
+   
+    table{
+        margin-bottom: 8em;
+        font-size: smaller;
+    }
+    
+}

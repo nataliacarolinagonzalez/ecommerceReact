@@ -1,0 +1,85 @@
+
+.TablaAlta{
+    margin-bottom: 3em;  
+    width: 70%; 
+}
+
+.TablaAlta table {
+    border-collapse: collapse;
+    width: 70%;
+ }
+ .TablaAlta th, td {
+     border-top: 1px solid #0B3954;
+     padding: 0.5em;
+     font-size: 0.8em;
+     color: #0B3954; 
+     letter-spacing: 0.1em;
+ }
+ .TablaAlta th {
+     font-variant: small-caps;
+     /* background-color: #0B3954; */  
+     text-align: center;
+     font-size: 1em;
+     letter-spacing: 0.2em; 
+     color: #0B3954; 
+ }
+
+ .TablaAlta table tr td img{
+    width: 80px;
+}
+
+.TablaAlta .btn-envioNO { 
+    color:#ec5151;
+    /* padding: 1em; */
+    font-weight: bold; 
+    border:none;
+    background-color: transparent;
+    font-size: 1em;
+   /*  margin-top: 2em; */
+    letter-spacing: 0.1em;
+    outline: none;
+}   
+
+.TablaAlta .btn-envioOK{
+    color: #0B3954;
+    /* padding: 1em; */
+    font-weight: bold; 
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+
+.TablaAlta .btn-envioOK:hover, .TablaAlta .btn-envioNO:hover{
+    text-shadow: 3px 3px 4px #000;
+}
+
+/* Media Queries */
+@media screen and (max-width: 380px){
+
+    .TablaAlta table tr td:nth-child(3), .TablaAlta table tr th:nth-child(3), .TablaAlta table tr td:nth-child(4), .TablaAlta table tr th:nth-child(4), .TablaAlta table tr td:nth-child(5), .TablaAlta table tr th:nth-child(5), .TablaAlta table tr td:nth-child(6), .TablaAlta table tr th:nth-child(6), .TablaAlta table tr td:nth-child(7), .TablaAlta table tr th:nth-child(7), .TablaAlta table tr td:nth-child(8), .TablaAlta table tr th:nth-child(8), .TablaAlta table tr td:nth-child(9), .TablaAlta table tr th:nth-child(9){
+        display:none;
+    }
+    table{
+        margin-bottom: 5em;
+    };
+    
+}
+@media screen and (min-width:380px) and (max-width: 512px) {
+    .TablaAlta table tr td:nth-child(3), .TablaAlta table tr th:nth-child(3), .TablaAlta table tr td:nth-child(4), .TablaAlta table tr th:nth-child(4), .TablaAlta table tr td:nth-child(5), .TablaAlta table tr th:nth-child(5), .TablaAlta table tr td:nth-child(6), .TablaAlta table tr th:nth-child(6), .TablaAlta table tr td:nth-child(7), .TablaAlta table tr th:nth-child(7), .TablaAlta table tr td:nth-child(8), .TablaAlta table tr th:nth-child(8), .TablaAlta table tr td:nth-child(9), .TablaAlta table tr th:nth-child(9){
+        display:none;
+    }
+    table{
+        margin-bottom: 5em;
+    };
+}
+@media screen and (min-width:512px) and (max-width: 768px) {
+    
+    .TablaAlta table tr td:nth-child(3), .TablaAlta table tr th:nth-child(3), .TablaAlta table tr td:nth-child(4), .TablaAlta table tr th:nth-child(4), .TablaAlta table tr td:nth-child(5), .TablaAlta table tr th:nth-child(5), .TablaAlta table tr td:nth-child(6), .TablaAlta table tr th:nth-child(6), .TablaAlta table tr td:nth-child(8), .TablaAlta table tr th:nth-child(8), .TablaAlta table tr td:nth-child(9), .TablaAlta table tr th:nth-child(9){
+        display:none;
+    }
+    table{
+        margin-bottom: 5em;
+    };
+}

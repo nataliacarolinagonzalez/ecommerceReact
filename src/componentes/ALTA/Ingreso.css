@@ -1,0 +1,110 @@
+.Ingreso{
+    background-color: rgba(11,57,84,0.2);
+    color: black;
+    text-align: left;
+    margin-top: 0;
+    padding: 1.5em;
+    border-radius: 0.5em;
+    border: solid 2px #0B3954;
+    width: 50%;
+    margin-bottom: 3em;   
+}
+.Ingreso p{
+    font-size: smaller;
+}
+
+.Ingreso legend{
+    background-color:#0B3954;
+    margin-bottom: 2em;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    font-variant: small-caps;
+    text-align: center;
+    font-weight: bold; 
+    font-size: 0.9em;
+    color: whitesmoke; 
+    letter-spacing: 0.4em;
+}
+.Ingreso input {
+    width: 100%;
+    border-radius: 0.3em;
+    border: 1px solid #0B3954;
+    padding: 1em;
+    margin-bottom: 1.3em;
+    font-size: 1em;
+} 
+ .Ingreso label{
+    display: block;
+    margin-bottom: 0.3em;
+    font-family: 'Noto Sans HK', sans-serif;
+    font-size: 0.8em;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.Ingreso input[type="checkbox"],  .Ingreso .input-group-envio label {
+    width: initial;
+    display: inline;
+}
+
+.Ingreso .btn-envioNO {
+    color: whitesmoke; 
+    border:solid 1px whitesmoke;
+    background-color: #ec5151;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    font-size: 1em;
+    margin-top: 2em;
+}   
+
+.Ingreso .btn-envioOK {
+    color: whitesmoke; 
+    border:solid 1px whitesmoke;
+    background-color: #0B3954;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    font-size: 1em;
+    margin-top: 2em;
+}   
+
+.Ingreso input:focus{
+    background-color: whitesmoke;
+    color:#ec5151 ;
+    outline: none;
+}
+.Ingreso button:hover{
+    background-color: whitesmoke;
+    color: #ec5151;
+    border:solid 1px #ec5151;
+}
+
+
+/* validaciones */
+.Ingreso input:invalid:focus{
+    box-shadow: 3px 2px 5px #ec5151;}
+
+.Ingreso input:valid{
+    box-shadow: 3px 2px 5px #0B3954;}
+
+.Ingreso .alert, .Ingreso .legenda{
+    font-size: 0.7em;
+}
+
+/* Media Queries */
+@media screen and (max-width: 380px){
+    .Ingreso{
+        width: 90%;  
+    }
+
+}
+@media screen and (min-width:380px) and (max-width: 512px) {
+    .Ingreso{
+        width: 90%;  
+    }
+}
+@media screen and (min-width:512px) and (max-width: 768px) {
+    .Ingreso{
+        width: 70%;  
+    
+}
+
+}

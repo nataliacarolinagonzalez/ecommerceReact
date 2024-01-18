@@ -1,0 +1,89 @@
+.Carrito {
+    height: 100%;
+    text-align: center;
+    padding: 1em 5em; 
+    /* margin-top: 8em;  */ 
+}
+
+.Carrito .carrito__pedir, .carrito .carrito__borrar {
+    color: whitesmoke; 
+    border:solid 1px whitesmoke;
+    background-color: #ec5151;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    font-size: 0.8em;
+    width: 100px;
+}   
+
+.carrito .carrito__pedir:hover, .carrito .carrito__borrar:hover{
+    background-color: whitesmoke;
+    color: #ec5151;
+    border:solid 1px #ec5151;
+}
+
+.carrito h1 {
+    color: #0B3954;
+    font-size: 2em;
+    text-shadow: 4px 4px 10px black;
+    letter-spacing: 0.3em;
+    margin-top: 4.5em; 
+    margin-bottom: 0.8em;
+}
+.carrito #pie-button{
+    margin-top: 2em; 
+    display: flex;
+    justify-content: center;
+    
+}
+
+.carrito .compra{
+    text-align: justify;
+}
+
+
+.carrito .compra li{
+    list-style: none;
+}
+
+.Carrito #wallet_container {
+    width: 25%;
+    margin: auto;
+}
+
+/* Media Queries */
+@media screen and (max-width: 380px){
+
+    .carrito h1{
+        font-size: 1em;
+        margin-top: 6em;
+    }
+    .carrito{
+        margin-bottom: 15em;
+    }
+   
+}
+@media screen and (min-width:380px) and (max-width: 512px) {
+      
+    .carrito h1{
+        font-size: 1.2em;
+        margin-top: 6em;
+    }
+    .carrito{
+        margin-bottom: 15em;
+    }
+   
+    
+}
+@media screen and (min-width:512px) and (max-width: 768px) {
+   
+    .carrito h1{
+        font-size: 1.3em;
+        margin-top: 7em;
+    }
+    .carrito{
+        margin-bottom: 15em;
+    }
+   
+    
+    
+}
